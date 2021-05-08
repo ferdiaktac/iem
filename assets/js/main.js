@@ -4,10 +4,12 @@ $(function() {
 
   // Modal
   $('.js-modal-toggle').on('click', function() {
+    $('body').addClass('disabled');
     const target = $(this).data('target');
     $('.modal[data-name="'+ target +'"]').stop().fadeIn();
   });
   $('.backdrop, .content .close').on('click', function() {
+    $('body').removeClass('disabled');
     $('.modal').stop().fadeOut();
   });
 
