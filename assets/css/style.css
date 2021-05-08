@@ -161,6 +161,8 @@ body {
 .homepage-hero .name {
   font-size: 16px;
   font-weight: 600;
+  -webkit-animation-delay: 8s!important;
+  animation-delay: 8s!important;
 }
 .homepage-hero .name span {
   color: #fff!important;
