@@ -72,11 +72,12 @@ body {
 .hero-area {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   padding-bottom: 50px;
 }
 .hero-area.hero-area--auto {
   height: auto;
+  min-height: unset;
   padding-bottom: 0;
 }
 .hero-area .hero-image {
@@ -100,8 +101,8 @@ body {
   max-width: 100%;
 }
 .hero-area .details-hero {
-  position: relative;
-  top: 50%;
+  position: absolute;
+  top: 35%;
   padding-left: 50px;
   font-size: 28px;
   line-height: 45px;
@@ -265,6 +266,7 @@ body {
 .content-area img {
   display: block;
   margin: 50px auto;
+  max-width: 100%;
 }
 .content-area .list {
   margin: 50px 0;
@@ -477,7 +479,7 @@ body {
   }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 850px) {
   .header {
     width: 100%;
     right: 0;
@@ -602,7 +604,11 @@ body {
     overflow-y: scroll;
     transform: translateY(0);
   }
-  .hero-area {
-    height: auto;
+  .hero-area .details-hero {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .hero-area .details-hero {
+    top: 50%;
   }
 }
