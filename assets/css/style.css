@@ -477,6 +477,15 @@ body {
   .homepage-buttons a.single {
     line-height: 90px;
   }
+  .hero-area .details-hero {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .hero-area .hero-desc {
+    bottom: 25px;
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 
 @media(max-width: 850px) {
