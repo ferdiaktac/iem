@@ -7,7 +7,7 @@ $(function() {
     const target = $(this).data('target');
     $('.modal[data-name="'+ target +'"]').stop().fadeIn();
   });
-  $('.backdrop').on('click', function() {
+  $('.backdrop, .content .close').on('click', function() {
     $('.modal').stop().fadeOut();
   });
 
