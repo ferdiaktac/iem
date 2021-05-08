@@ -4,6 +4,8 @@
 body {
   font-family: 'Poppins', sans-serif;
   background: #01102A;
+  width: 100%;
+  overflow-x: hidden!important;
 }
 * {
   box-sizing: border-box;
