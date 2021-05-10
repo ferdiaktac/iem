@@ -223,8 +223,8 @@ body.disabled {
 * Jobs
 */
 .jobs {
-  font-size: 28px;
-  line-height: 45px;
+  font-size: 22px;
+  line-height: 32px;
   color: #fff;
   font-weight: 600;
 }
