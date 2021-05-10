@@ -639,6 +639,9 @@ body.disabled {
   .hero-area .details-hero {
     top: 50%;
   }
+  .scroll-btn .mouse{
+    margin: 0 auto 40px!important;
+  }
 }
 
 @-webkit-keyframes ani-mouse {
