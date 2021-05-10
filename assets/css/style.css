@@ -497,7 +497,7 @@ body.disabled {
     line-height: 25px;
   }
   .hero-area .hero-desc {
-    bottom: 100px;
+    bottom: 140px;
     font-size: 16px;
     line-height: 20px;
   }
@@ -640,7 +640,7 @@ body.disabled {
     top: 50%;
   }
   .scroll-btn .mouse{
-    margin: 0 auto 40px!important;
+    margin: 0 auto 60px!important;
   }
 }
 
