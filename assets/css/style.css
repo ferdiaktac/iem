@@ -157,11 +157,11 @@ body.disabled {
   font-size: 48px;
   font-weight: 600;
   line-height: 60px;
+  margin-top: 80px;
   -webkit-animation-delay: 7s!important;
   animation-delay: 7s!important;
 }
 .homepage-hero .desc {
-  margin-top: 80px;
   margin-bottom: 15px;
   font-size: 24px;
   line-height: 30px;
