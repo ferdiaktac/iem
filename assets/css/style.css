@@ -710,11 +710,12 @@ body.disabled {
 .scroll-btn > * {
   display: inline-block;
   line-height: 18px;
-  font-size: 13px;
+  font-size: 30px;
   font-weight: normal;
   color: #7f8c8d;
   color: #ffffff;
   letter-spacing: 2px;
+  margin-bottom: 24px;
 }
 .scroll-btn > *:hover,
 .scroll-btn > *:focus,
